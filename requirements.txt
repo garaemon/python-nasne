@@ -1,9 +1,2 @@
 coloredlogs==5.2
-get==0.0.0
-humanfriendly==2.2
-post==0.0.0
-public==0.0.0
-query-string==0.0.0
-request==0.0.0
 requests==2.12.4
-setupfiles==0.0.0
