@@ -46,6 +46,8 @@ setup(
     install_requires=requireModules([
 
     ]),
+    packages=['nasne'],
 
+    url='https://github.com/garaemon/python-nasne',
     test_suite='nasne'
 )
