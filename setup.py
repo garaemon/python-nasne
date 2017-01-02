@@ -36,10 +36,12 @@ setup(
 
     description='Python interface for nasne',
     long_description=open('README.txt').read(),
+    license='MIT',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers'
     ],
+    keywords='nasne',
 
     install_requires=requireModules([
 
