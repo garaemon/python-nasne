@@ -3,6 +3,11 @@
 nasne is a python package to get information from nasne.
 This package is greatly inspired by [node-nasne](https://github.com/naokiy/node-nasne).
 
+## How to install
+```
+pip install -U git+https://github.com/garaemon/python-nasne
+```
+
 ## How to use
 
 ```python
