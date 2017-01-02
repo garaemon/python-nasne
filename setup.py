@@ -22,7 +22,7 @@ def requireModules(moduleNames=None):
 
     commentPattern = re.compile(r'^\w*?#')
     moduleNames.extend(
-        filter(lambda line: not commentPattern.match(line), 
+        filter(lambda line: not commentPattern.match(line),
             open('requirements.txt').readlines()))
 
     return moduleNames
@@ -34,12 +34,14 @@ setup(
     author='garaemon',
     author_email='garaemon@gmail.com',
 
-    description='Python interface to nasne',
+    description='Python interface for nasne',
     long_description=open('README.txt').read(),
+    license='MIT',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers'
     ],
+    keywords='nasne',
 
     install_requires=requireModules([
 
